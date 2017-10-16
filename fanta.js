@@ -351,6 +351,7 @@ function doAll(){
     addRow(portieri[i].name, portieri[i].fantavoto, portieri[i].prob, portieri[i].avv);
      
   addRow('', '', '');
+  addRow('', '', '');
 
   var player3 = new Player("BONUCCI", Milan, "https://www.fantagazzetta.com/squadre/MILAN/BONUCCI/286/1/2017-18", probabilityHttpResponse, calendar);
   var player4 = new Player("ASTORI", Fiorentina, "https://www.fantagazzetta.com/squadre/FIORENTINA/ASTORI/642/1/2017-18", probabilityHttpResponse, calendar);
@@ -367,6 +368,7 @@ function doAll(){
   for (var i=0; i< difensori.length; i++)
     addRow(difensori[i].name, difensori[i].fantavoto, difensori[i].prob, difensori[i].avv);
   
+  addRow('', '', '');
   addRow('', '', '');
   
   var player11 = new Player("MILINKOVIC-SAVIC", Lazio, "https://www.fantagazzetta.com/squadre/LAZIO/MILINKOVIC-SAVIC/645/1/2017-18", probabilityHttpResponse, calendar);
@@ -385,7 +387,8 @@ function doAll(){
     addRow(cc[i].name, cc[i].fantavoto, cc[i].prob, cc[i].avv);
 
   addRow('', '', '');
-  
+  addRow('', '', '');
+
   var player19 = new Player("BELOTTI", Torino, "https://www.fantagazzetta.com/squadre/TORINO/BELOTTI/441/1/2017-18", probabilityHttpResponse, calendar);
   var player20 = new Player("DZEKO", Roma, "https://www.fantagazzetta.com/squadre/ROMA/DZEKO/647/1/2017-18", probabilityHttpResponse, calendar);
   var player21 = new Player("BORRIELLO", SPAL, "https://www.fantagazzetta.com/squadre/SPAL/BORRIELLO/722/1/2017-18", probabilityHttpResponse, calendar);
