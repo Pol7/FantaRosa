@@ -1,7 +1,7 @@
 table {
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-size: 100%;
+    font-size: 30pt;
     overflow: auto;
     width: 100%;
 }
