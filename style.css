@@ -2,9 +2,8 @@ table {
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 100%;
-    width: auto;
     overflow: auto;
-    display: block;
+    width: 100%;
 }
 
 th {
