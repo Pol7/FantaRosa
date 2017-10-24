@@ -17,7 +17,6 @@ var Genoa = "Genoa";
 class Player {
 
   constructor(name, team, url, probResponse, matches){
-    debugger;
     this.name = name;
     this.team = team;
     this.teamOrder = this.getOrderTeam(matches);
@@ -332,9 +331,7 @@ function lowerCaseAllWordsExceptFirstLetters(string) {
 }
 
 function doAll(){
-  debugger;
   var probabilityHttpResponse = httpGet('https://www.fantagazzetta.com/probabili-formazioni-serie-a');
-
   
   var calendarHttpResponse = httpGet('https://www.fantagazzetta.com/serie-a/calendario/10');
   var calendar = getCalendar(calendarHttpResponse);
