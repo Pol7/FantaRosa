@@ -332,7 +332,7 @@ function lowerCaseAllWordsExceptFirstLetters(string) {
 }
 
 function doAll(){
-
+  debugger;
   var probabilityHttpResponse = httpGet('https://www.fantagazzetta.com/probabili-formazioni-serie-a');
 
   
