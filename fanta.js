@@ -17,6 +17,7 @@ var Genoa = "Genoa";
 class Player {
 
   constructor(name, team, url, probResponse, matches){
+    debugger;
     this.name = name;
     this.team = team;
     this.teamOrder = this.getOrderTeam(matches);
